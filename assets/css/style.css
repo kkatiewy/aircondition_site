@@ -58,7 +58,7 @@ header {
   position: relative;
   background: linear-gradient(135deg, rgba(11, 31, 58, 0.88) 0%, rgba(0, 164, 182, 0.78) 60%, rgba(31, 91, 216, 0.85) 100%),
     url('../img/hero-placeholder.svg') center/cover no-repeat;
-  min-height: 90vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -182,7 +182,7 @@ nav a[aria-current='page']::after {
 .hero {
   position: relative;
   z-index: 1;
-  padding: 4rem 8vw 5rem;
+  padding: 3rem 8vw 4rem;
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
