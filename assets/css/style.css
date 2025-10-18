@@ -91,14 +91,15 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  padding: 1.8rem 8vw 0;
+  padding: 0.35rem 8vw;
 }
 
 .logo {
-  font-size: clamp(1.4rem, 2.6vw, 2.2rem);
+  font-size: clamp(1.3rem, 2.5vw, 2.1rem);
   font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.2;
 }
 
 nav ul {
@@ -249,7 +250,7 @@ nav a[aria-current='page']::after {
 }
 
 main {
-  padding: 5rem 8vw 6rem;
+  padding: 0 8vw 6rem;
 }
 
 section + section {
@@ -257,7 +258,7 @@ section + section {
 }
 
 section[id] {
-  scroll-margin-top: 6rem;
+  scroll-margin-top: 0;
 }
 
 .section-title {
