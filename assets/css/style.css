@@ -17,6 +17,10 @@
   --font-sans: 'Noto Sans TC', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -252,6 +256,10 @@ section + section {
   margin-top: 4.5rem;
 }
 
+section[id] {
+  scroll-margin-top: 6rem;
+}
+
 .section-title {
   font-size: clamp(2rem, 4vw, 2.6rem);
   color: var(--navy);
@@ -272,6 +280,11 @@ section + section {
 
 .grid.two-col {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.case-list {
+  display: grid;
+  gap: 2.5rem;
 }
 
 .card {

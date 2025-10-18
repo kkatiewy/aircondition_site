@@ -13,18 +13,18 @@
     />
   </head>
   <body>
-    <header class="site-header">
+    <header class="site-header" id="top">
       <div class="announcement">24/7 緊急熱線 • 全港即日派工程師</div>
       <div class="top-bar">
         <div class="logo">CoolCare Air</div>
         <nav aria-label="主選單">
           <ul>
-            <li><a href="index.html" aria-current="page">主頁</a></li>
-            <li><a href="services.html">服務與收費</a></li>
-            <li><a href="cases.html">歷史案例</a></li>
-            <li><a href="vendors.html">合作供應商</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li class="nav-cta"><a class="btn-secondary" href="contact.html">預約檢查</a></li>
+            <li><a href="#top" aria-current="page">主頁</a></li>
+            <li><a href="#services">服務與收費</a></li>
+            <li><a href="#cases">歷史案例</a></li>
+            <li><a href="#vendors">合作供應商</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="nav-cta"><a class="btn-secondary" href="#contact">預約檢查</a></li>
           </ul>
         </nav>
       </div>
@@ -35,8 +35,8 @@
             我們結合機電署註冊專業與主動保養方案，貼合香港潮濕天氣。全年保持分體機、VRV/VRF 系統及冷水機房靜音高效運作。
           </p>
           <div class="hero-actions">
-            <a class="btn-primary" href="contact.html">預約到場檢查</a>
-            <a class="btn-secondary" href="services.html">了解服務計劃</a>
+            <a class="btn-primary" href="#contact">預約到場檢查</a>
+            <a class="btn-secondary" href="#services">了解服務計劃</a>
           </div>
         </div>
         <aside class="hero-highlights" aria-label="公司亮點">
@@ -52,8 +52,8 @@
     </header>
 
     <main>
-      <section>
-        <h2 class="section-title">重點保養方案</h2>
+      <section id="services" aria-labelledby="services-title">
+        <h2 id="services-title" class="section-title">重點保養方案</h2>
         <p class="section-lead">
           由九龍單位到中環甲級寫字樓，我們度身制定保養計劃，延長設備壽命並保持租戶舒適。
         </p>
@@ -93,9 +93,99 @@
         </div>
         <div class="values">
           <span class="value-tag">分體與 VRV/VRF 系統</span>
-          <span class="value-tag">認可電力工程</span>
+          <span class="value-tag">認可電力程</span>
           <span class="value-tag">室內空氣質素檢測</span>
           <span class="value-tag">節能優化</span>
+        </div>
+      </section>
+
+      <section aria-labelledby="service-plans-title">
+        <div class="section-header">
+          <h2 id="service-plans-title">服務層級</h2>
+          <p>可按樓層或租戶組合計劃，多地點與長約客戶可享專屬折扣。</p>
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">計劃</th>
+                <th scope="col">適合對象</th>
+                <th scope="col">涵蓋範圍</th>
+                <th scope="col">起始費用</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Essential Care 基礎護理</th>
+                <td>住宅單位及服務式公寓</td>
+                <td>每季清洗、滲漏檢查、雪種補充</td>
+                <td>$680 / 室內機 / 年</td>
+              </tr>
+              <tr>
+                <th scope="row">Premium Comfort 尊尚護理</th>
+                <td>豪宅與精品零售店</td>
+                <td>雙月到訪、更換濾網、室內空氣質素測試</td>
+                <td>$1,280 / 室內機 / 年</td>
+              </tr>
+              <tr>
+                <th scope="row">Business Continuity 業務延續</th>
+                <td>寫字樓、共享空間、數據中心</td>
+                <td>每月巡檢、4 小時到場 SLA、備用機支援</td>
+                <td>$3,800 / 系統 / 月</td>
+              </tr>
+              <tr>
+                <th scope="row">Chiller Optimisation 冷水機優化</th>
+                <td>商廈與酒店</td>
+                <td>狀態監察、水處理、更新改造研究</td>
+                <td>視察後提供專屬報價</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section aria-labelledby="service-visit-title">
+        <div class="section-header">
+          <h2 id="service-visit-title">每次到訪包含項目</h2>
+          <p>工程師依循 ISO 認證清單，附相片紀錄與電子簽署。</p>
+        </div>
+        <div class="grid two-col">
+          <div class="card">
+            <h3>預防性檢查</h3>
+            <ul>
+              <li>環保藥水清洗蒸發器並沖洗</li>
+              <li>電力安全測試及負載平衡</li>
+              <li>排水管沖洗與水盤消毒</li>
+              <li>雪種壓力標準檢測</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>報告與合規</h3>
+            <ul>
+              <li>附前後照片的電子報告</li>
+              <li>按緊急程度排列的建議</li>
+              <li>配合機電署及環保署所需文件</li>
+              <li>WhatsApp 摘要方便即時批核</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>加值升級</h3>
+            <ul>
+              <li>節能審核與改造路線圖</li>
+              <li>UV-C 消毒套件與離子器</li>
+              <li>風量平衡與風管翻新</li>
+              <li>後備冷水機租賃與負載測試</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>支援服務</h3>
+            <ul>
+              <li>24/7 熱線與雙語客戶主任</li>
+              <li>重點區域設置備件櫃</li>
+              <li>每月 KPI 儀表板供物業團隊使用</li>
+              <li>季節性節能工作坊</li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -176,12 +266,220 @@
         </div>
       </section>
 
-      <section class="cta-banner">
-        <h2>規劃下一次保養週期</h2>
+      <section id="cases" aria-labelledby="cases-title">
+        <div class="section-header">
+          <h2 id="cases-title">精選案例</h2>
+          <p>了解我們如何協助不同產業提升空調穩定性與合規成果。</p>
+        </div>
+        <div class="case-list">
+          <article class="case-study" aria-labelledby="case-office-title">
+            <header>
+              <h3 id="case-office-title">甲級商廈 VRF 系統更新</h3>
+              <div class="badge">中環 • 32 層</div>
+            </header>
+            <div class="case-meta">
+              <span><strong>客戶：</strong>金融機構總部</span>
+              <span><strong>工期：</strong>10 週</span>
+              <span><strong>成果：</strong>節能 28%</span>
+            </div>
+            <p>
+              團隊以高效 VRF 系統替換老化冷凝機，並安排通宵施工避免交易時段受影響。項目涵蓋隔音處理、新樓宇管理系統整合及機電署重新驗收。
+            </p>
+            <ul class="timeline">
+              <li>完成熱像勘測與震動分析，鎖定故障部件。</li>
+              <li>分階段停機策略確保交易時段零停機。</li>
+              <li>提供雙語租戶通知與每週進度儀表板。</li>
+            </ul>
+          </article>
+
+          <article class="case-study" aria-labelledby="case-hotel-title">
+            <header>
+              <h3 id="case-hotel-title">海旁酒店冷水機房優化</h3>
+              <div class="badge">尖沙咀 • 520 間客房</div>
+            </header>
+            <div class="case-meta">
+              <span><strong>客戶：</strong>五星級酒店集團</span>
+              <span><strong>工期：</strong>6 個月</span>
+              <span><strong>成果：</strong>節省用水 35%</span>
+            </div>
+            <p>
+              工程師升級冷卻塔、加裝變速驅動，並導入水處理以防結垢。即時儀表板會提醒設施團隊 COP 值與水質指標的異常。
+            </p>
+            <ul class="timeline">
+              <li>進行能源審核與生命週期分析，訂立優先升級項目。</li>
+              <li>安裝與酒店 BMS 整合的智能感應器。</li>
+              <li>培訓內部工程師掌握預測性保養流程。</li>
+            </ul>
+          </article>
+
+          <article class="case-study" aria-labelledby="case-residential-title">
+            <header>
+              <h3 id="case-residential-title">住宅屋苑室內空氣質素升級</h3>
+              <div class="badge">沙田 • 1,200 戶</div>
+            </header>
+            <div class="case-meta">
+              <span><strong>客戶：</strong>業主立案法團</span>
+              <span><strong>工期：</strong>4 個月</span>
+              <span><strong>成果：</strong>霉菌投訴減少 40%</span>
+            </div>
+            <p>
+              我們制訂以濕度控制、UV-C 線圈消毒及風管翻新為核心的保養方案。住戶可透過手機以中英文查閱保養行程與進度更新。
+            </p>
+            <ul class="timeline">
+              <li>進行 IAQ 測試，找出升降機大堂的濕度熱點。</li>
+              <li>於 120 部空調箱安裝 UV-C 燈並升級濾網。</li>
+              <li>推出住戶平台，提供服務報告及更換濾網提醒。</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-banner" aria-labelledby="cta-cases-title">
+        <h2 id="cta-cases-title">想締造屬於你的成功故事？</h2>
+        <p>立即預約諮詢，探討節能升級、合規審核或住戶體驗改善方案。</p>
+        <a class="btn-primary" href="#contact">開展專案</a>
+      </section>
+
+      <section id="vendors" aria-labelledby="vendors-title">
+        <div class="section-header">
+          <h2 id="vendors-title">策略夥伴</h2>
+          <p>每位合作夥伴均經產品可靠度、保養支援與本地備件供應審核。</p>
+        </div>
+        <div class="vendor-list">
+          <article class="vendor-card">
+            <header>
+              <h3>Daikin Hong Kong</h3>
+              <div class="tags">
+                <span class="tag">VRV/VRF</span>
+                <span class="tag">Split Units</span>
+                <span class="tag">IAQ</span>
+              </div>
+            </header>
+            <p>
+              提供 VRV IV 系統、智能控制器及 IAQ 配件。原廠培訓確保工程師按品牌標準安裝與調試。
+            </p>
+          </article>
+          <article class="vendor-card">
+            <header>
+              <h3>Mitsubishi Electric</h3>
+              <div class="tags">
+                <span class="tag">Chillers</span>
+                <span class="tag">Controls</span>
+              </div>
+            </header>
+            <p>
+              提供高效冷水機、中央控制及保養零件。我們與其技術團隊協調複雜改造與保養申請。
+            </p>
+          </article>
+          <article class="vendor-card">
+            <header>
+              <h3>Belimo</h3>
+              <div class="tags">
+                <span class="tag">Actuators</span>
+                <span class="tag">Sensors</span>
+                <span class="tag">Energy Valves</span>
+              </div>
+            </header>
+            <p>
+              提供風門致動器、感應器與節能閥，精準控制風量。與樓宇管理系統整合即可即時監察。
+            </p>
+          </article>
+          <article class="vendor-card">
+            <header>
+              <h3>Taco Water Systems</h3>
+              <div class="tags">
+                <span class="tag">Pumps</span>
+                <span class="tag">Hydronics</span>
+              </div>
+            </header>
+            <p>
+              提供高效水泵與水力平衡方案，支援地區供冷與酒店冷凍水系統改造。
+            </p>
+          </article>
+          <article class="vendor-card">
+            <header>
+              <h3>Sensibo &amp; IAQ Tech</h3>
+              <div class="tags">
+                <span class="tag">Smart Controls</span>
+                <span class="tag">Analytics</span>
+              </div>
+            </header>
+            <p>
+              提供 IoT 閘道器、IAQ 感應器及分析儀表板，與保養報告整合後即時推送警示與節能建議。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-banner" aria-labelledby="cta-vendors-title">
+        <h2 id="cta-vendors-title">想與 CoolCare 合作？</h2>
+        <p>歡迎能源、過濾及智慧樓宇創新品牌加入，共同服務香港市場。</p>
+        <a class="btn-primary" href="#contact">成為合作夥伴</a>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <div class="section-header">
+          <h2 id="contact-title">留下聯絡方式</h2>
+          <p>提交需求後，我們會於兩個工作小時內回覆。</p>
+        </div>
+        <div class="contact-card">
+          <form>
+            <div>
+              <label for="name">姓名</label>
+              <input id="name" name="name" type="text" placeholder="請輸入全名" required />
+            </div>
+            <div>
+              <label for="company">公司 / 樓宇</label>
+              <input id="company" name="company" type="text" placeholder="公司或屋苑名稱" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="name@company.com" required />
+            </div>
+            <div>
+              <label for="phone">Phone / WhatsApp</label>
+              <input id="phone" name="phone" type="tel" placeholder="聯絡電話" />
+            </div>
+            <div>
+              <label for="message">需求描述</label>
+              <textarea id="message" name="message" placeholder="請簡述系統、問題或項目時間表"></textarea>
+            </div>
+            <button class="btn-primary" type="submit">送出查詢</button>
+          </form>
+          <div class="contact-info">
+            <div>
+              <h3>Hotline</h3>
+              <p><a href="tel:+85231001234">+852 3100 1234</a> (24/7 emergency support)</p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:service@coolcare.hk">service@coolcare.hk</a></p>
+            </div>
+            <div>
+              <h3>辦公室</h3>
+              <p>香港九龍灣商貿中心 803 室</p>
+            </div>
+            <div>
+              <h3>服務時間</h3>
+              <p>預約保養：星期一至日 08:00–22:00</p>
+              <p>緊急出勤：通宵及公眾假期照常</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-banner" aria-labelledby="cta-hotline-title">
+        <h2 id="cta-hotline-title">需要即時支援？</h2>
+        <p>立即致電 Hotline，我們會派出最近工程師並提供實時到達更新。</p>
+        <a class="btn-primary" href="tel:+85231001234">Call +852 3100 1234</a>
+      </section>
+
+      <section class="cta-banner" aria-labelledby="cta-maintenance-title">
+        <h2 id="cta-maintenance-title">規劃下一次保養週期</h2>
         <p>
           與高級工程師預約巡查，檢視設備健康、能源使用與供應商保養，迎戰盛夏前夕。
         </p>
-        <a class="btn-primary" href="contact.html">聯絡工程師</a>
+        <a class="btn-primary" href="#contact">聯絡工程師</a>
       </section>
     </main>
 
