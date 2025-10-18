@@ -2,28 +2,27 @@
 
 Static marketing website for a Hong Kong-based air-conditioning maintenance and repair company. The experience is fully
 localised in Traditional Chinese and showcases the modern Version 2 layout with glassmorphism styling, KPI highlights, and
-consistent CTA banners woven throughout a single scrolling page.
+consistent CTA banners across every page.
 
 ## Getting Started
 
-Open `index.html` in any modern browser to preview the homepage. The navigation menu uses in-page anchors that smoothly
-scroll to each content block:
+Open `index.html` in any modern browser to preview the homepage. The navigation menu links to the other sections:
 
-- `#services` – 維修保養方案、方案價目與到訪項目
-- `#cases` – 歷史項目亮點與成效
-- `#vendors` – 合作供應商名單
-- `#contact` – Contact 與支援資訊
+- `services.html` – 維修保養方案與價格
+- `cases.html` – 歷史項目亮點
+- `vendors.html` – 合作供應商名單
+- `contact.html` – Contact 與支援資訊
 
 ### Customising the Hero Image
 
 Replace `assets/img/hero-placeholder.svg` with your preferred hero photograph. Keep the same filename to preserve the styling,
-or update the background image path inside the stylesheet under the `.site-header` rule.
+or update the background image path inside the stylesheet under the `.site-header` or `.page-header::after` rules.
 
 ### Updating Copy & Highlights
 
 - Hero bullet copy lives in `index.html` inside the `<aside class="hero-highlights">` element.
 - Company metrics live in the `section.highlight-metrics` block on the homepage.
-- CTA banners reuse the `.cta-banner` class across multiple sections of the homepage.
+- CTA banners reuse the `.cta-banner` class on every page.
 
 ## Structure
 
@@ -31,7 +30,11 @@ or update the background image path inside the stylesheet under the `.site-heade
 assets/
   css/style.css     # Global styles, layout, and reusable components
   img/hero-placeholder.svg
-index.html          # Single-page experience with hero、方案、案例、供應商與聯絡部分
+index.html          # Homepage with hero, programmes, metrics, testimonials
+services.html       # Services, pricing tiers, visit inclusions
+cases.html          # Case studies / historical projects
+vendors.html        # Vendor partners list
+contact.html        # Contact information and enquiry form
 ```
 
 All typography uses Google Fonts (`Noto Sans TC` and `Roboto`) loaded via CDN.
