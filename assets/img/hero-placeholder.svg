@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d47a1" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#42a5f5" stop-opacity="0.85" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#cfd8dc"/>
+  <g transform="translate(600 400)">
+    <rect x="-260" y="-120" width="520" height="240" rx="30" ry="30" fill="url(#grad)" opacity="0.85" />
+    <text text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="600" dy="14">
+      Aircon Hero Placeholder
+    </text>
+  </g>
+</svg>
