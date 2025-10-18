@@ -91,7 +91,7 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  padding: 0.35rem 8vw;
+  padding: 0 8vw 0.35rem;
 }
 
 .logo {
