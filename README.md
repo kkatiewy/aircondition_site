@@ -1,8 +1,9 @@
-# CoolCare Air Website
+# 偉唱冷氣水電裝飾工程有限公司 Wai Cheong Air Condition Water Electric Decoration Engineering Ltd. Website
 
-Static marketing website for a Hong Kong-based air-conditioning maintenance and repair company. The experience is fully
-localised in Traditional Chinese and showcases the modern Version 2 layout with glassmorphism styling, KPI highlights, and
-consistent CTA banners across every page.
+Static marketing website for 偉唱冷氣水電裝飾工程有限公司 (Wai Cheong Air Condition Water Electric Decoration Engineering Ltd.),
+a Hong Kong-based air-conditioning maintenance and repair company. The experience is fully localised in Traditional Chinese
+and showcases the modern Version 2 layout with glassmorphism styling, KPI highlights, and consistent CTA banners across
+every page.
 
 ## Getting Started
 
